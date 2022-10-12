@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.continar {
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    width: 550px;
+    height: 400px;
+    margin-top: 9%;
+    margin-left: 370px;
+    /* margin-right: 272px; */
+    display: flex;
+    justify-content: center;
+}
+
+.part1 {
+    width: 275px;
+    /* border: 1px solid rgb(146, 53, 123); */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    height: 400px;
+    background-image: url(../img/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part2 {
+    width: 275px;
+    /* border: 1px solid rgb(53, 86, 146); */
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.continar h6 {
+    color: hsl(229, 7%, 68%);
+
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.continar h2 {
+    padding-left: 30px;
+    padding-top: 15px;
+    font-weight: 700px;
+    color: hsl(212, 21%, 14%);
+    line-height: 25px;
+    padding-right: 75px;
+
+    font-family: "Fraunces", serif;
+}
+
+.continar p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 22px;
+    color: hsl(228, 12%, 48%);
+}
+
+.continar .tit {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: "Fraunces", serif;
+    display: inline-block;
+}
+
+.continar .tit2 {
+    color: hsl(228, 12%, 48%);
+
+    font-size: 14px;
+    display: inline;
+    padding-left: 20px;
+    text-decoration: line-through;
+}
+
+.continar button {
+    border: hsl(158, 36%, 37%) solid 1px;
+    color: aliceblue;
+    width: 220px;
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.continar button:hover{
+    cursor: pointer;
+}
